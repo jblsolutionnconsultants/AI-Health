@@ -178,7 +178,7 @@ class App(Frame):
 
         self.la = Label(self)
         self.la.pack()
-        self.la.config( bg="#000000", width=100, height=30)
+        self.la.config( bg="#000000", width=100, height=30) #Fixed Width
 
 
         self.pack()
