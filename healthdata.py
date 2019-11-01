@@ -112,7 +112,7 @@ def SVM():
     accuracy = accuracy_score(test_target, results)
     print('SVM Accuracy :', accuracy)
 
-def DT():
+def DT(): #Decision Tree
     from sklearn.model_selection import train_test_split
     train_data, test_data, train_target, test_target = train_test_split(data, target, test_size=test_size)
     from sklearn import tree
