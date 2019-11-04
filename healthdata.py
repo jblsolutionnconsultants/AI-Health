@@ -99,7 +99,7 @@ def KNN():
     print('KNN Accuracy :', accuracy)
 
 
-def SVM():
+def SVM(): #Support Vector Machine
     from sklearn.model_selection import train_test_split
     train_data, test_data, train_target, test_target = train_test_split(data, target, test_size=test_size)
     from sklearn.svm import SVC
